@@ -1,10 +1,10 @@
-import UserResults from "../components/layout/UserResults"
-
+import UserResults from '../components/layout/UserResults'
+import UserSearch from '../components/users/UserSearch'
 
 function Home() {
   return (
     <>
-    {/* search user results */}
+      <UserSearch className=""/>
       <UserResults className="" />
     </>
   )
