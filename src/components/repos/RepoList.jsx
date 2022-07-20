@@ -8,7 +8,7 @@ function RepoList({repos}) {
           Top Repositories
         </h2>
         {repos.map((repo) => (
-          <h3>{repos}</h3>
+          <h3>{repo.name}</h3>
         ))}
       </div>
     </div>
